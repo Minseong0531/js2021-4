@@ -19,3 +19,5 @@ while ( j < 100){
     i++
     console.log(j)
 }
+
+document.write(j+ "값이 나옴.")
