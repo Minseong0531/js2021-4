@@ -1,16 +1,21 @@
-let sum = 0;
-let j = 1
+let j = 0
 let i = 1
 let k = 1
 
 while ( j < 100){
-    j + i * 3;
-    i++
-    
-}
-console.log(j)
-while (j < 100){
-    j + k * 2;
+    j = i * 3;
 
-    k++
+    console.log(j + "+" + i);
+
+    i++
+    console.log(j)
+}
+
+while ( j < 100){
+    j = i * 2;
+
+    console.log(j + "+" + i);
+
+    i++
+    console.log(j)
 }
