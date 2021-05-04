@@ -1,5 +1,58 @@
 # 연민성 [201840216]
 
+## [05월 03일]
+
+기본 자료형과 객체 자료형의 차이를 이해하기,
+
+1. 기본 자료형과 객체 자료형의 차이
+
+자바 스크립트는 내장된 함수 사용
+
+통합 개발 환경에서 자동완성 기능
+
+◇ 기본 자료형 숫자, 문자열, 불
+
+>let number = 273;
+>let string = '안녕하세요';
+>let boolean = true;
+
+>// consolde.log(typeof number);
+>// consolde.log(typeof string);
+>// consolde.log(typeof boolean);
+
+결과
+>object
+>object
+>object
+
+◇ ! 기본 자료형은 객체가 아니므로 속성과 메소드를 추가할 수 없음 !
+
+◇ 기본 자료형에 프로토타입으로 메소드 추가하기
+
+>// 변수를 생성합니다.
+>let primitiveNumber = 273;
+>// 메소드를 추가합니다.
+>Number.prototype.method = function () {
+>	return "Add Method";
+>}
+>console.log(foo.method());
+
+2. Number 객체 생성
+
+자바스크립트에서 숫자를 표현할 때 사용
+
+>let numberFromLiteral = 273;
+>let numberFromConstructor = new Number(273);
+
+toExponential() = 숫자를 지수 표시로 나타낸 문자열을 리턴합니다.
+toFixed() = 숫자를 고정소수점 표시로 나타낸 문자열을 리턴합니다.
+to     = 숫자를 길이에 따라 지수표시 또는 고정소수점 표시로 나타낸 문자열을 리턴합니다.
+
+자바스크립트가 너무 큰 수를 다룰 때에는 부동소수점 형식으로 숫자를 다루기.
+
+
+
+
 ## [04월 27일]
 
 객체
