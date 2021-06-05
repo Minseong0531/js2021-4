@@ -1,4 +1,62 @@
 # 연민성 [201840216]
+
+##[06월 1일]
+
+RESTful 웹 서비스 개요
+
+RESTful 웹 서비스는 rest 규정에 맞게 만든 roa를 따르는 웹 서비스 디자인 표준이다. 자원을 다루는 방법과 특정 웹 페이지로 접근하는 방법을 비슷한 형태로 구성한다는 의미이다.
+
+>> GET /user 사용자 전체를 조회
+>> GET /user/273 273번 사용자 전체를 조회
+>> POST /user 사용자를 추가
+>> DELETE /user/273 273번 사용자를 삭제
+
+1. 모든 웹 브라우저를 지원하려면 구 버전의 자바스크립트를 사용해야 합니다.
+LET 키워드와 const 키워드 사용 불가능
+템플릿 문자열 사용 불가능
+화살표 함수 사용 불가능
+for of 반복문 사용 불가능
+
+2.HTML 파일에서 자바스크립트 코드를 사용할 대는 script 태그를 사용합니다.
+3. 브라우저 객체 모델은 웹 브라우저와 관련된 객체를 릐미합니다.
+
+window객체 : 웹 페이지 자체를 나타내는 객체
+document 객체 : 문서 객체 모델과 관련된 객체
+screen 객체 : 운영체제 화면의 속설을 가지는 객체
+
+width 화면의 너비
+height 화면의 높이
+availWidth 실제 화면에서 사용 가능한 너비
+availHeight 실제 화면에서 사용 가능한 높이
+colorDepth 사용 가능한 색상 수
+pixelDepth 한 픽셀당 비트수
+
+href 문서의 URL 주소
+host 호스트 이름과 포트번호
+hostname 호스트 이름
+port 포트 번호
+pathname 디렉터리 경로
+hash 앵커 이름
+search 요청 매개 변수
+protocol 프로토콜 종류
+
+history 객체 : 웹 페이지 이동 이력과 관련된 객체
+navigator 객체 : 웹 페이지를 실행하고 있는 웹 브라우저의 정보와 관련된 객체
+
+1. 문서 객체 모델
+
+웹 브라우저가 HTML 파일을 분석하고 출력하는 방식을 나타냅니다.
+
+2. 문서 객체 선택
+문서 객체를 선택할 때는 다음 메소드를 사용합니다.
+
+document.getElementByld 아이디를 사용해 문서 객체를 선택합니다.
+document.querySelector 선택자를 사용해 문서 객체를 선택합니다.
+document.getElementsByName name 속성으로 여려 개의 문서 객체를 선택합니다.
+document.getElementsByClassName class 속성으로 여러 개의 문서 객체를 선택합니다.
+
+
+
 ## [05월 25일]
 
 express 모듈
